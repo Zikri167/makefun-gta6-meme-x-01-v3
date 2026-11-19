@@ -338,6 +338,7 @@ function calendarPage(x, y, w, h, year, crossed) {
 }
 calendarPage(56, 560, 210, 158, "2013", true);
 calendarPage(150, 668, 200, 152, "2026", false);
+calendarPage(228, 462, 122, 92, "2024", true);
 plainText("STILL WAITING", 150 + (200 - textWidth("STILL WAITING", 2)) / 2, 668 + 122, 2, [110, 104, 130], 1);
 
 // ---------- the make.fun ghost ----------
