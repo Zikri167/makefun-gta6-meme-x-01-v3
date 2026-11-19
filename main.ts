@@ -330,9 +330,9 @@ function calendarPage(x, y, w, h, year, crossed) {
     thickLine(x + 10, y + h - 12, x + w - 10, y + 40, 7, [220, 40, 60], 0.85);
   }
 }
-calendarPage(92, 606, 200, 152, "2013", true);
-calendarPage(122, 652, 200, 152, "2026", false);
-plainText("STILL WAITING", 122 + (200 - textWidth("STILL WAITING", 2)) / 2, 652 + 122, 2, [110, 104, 130], 1);
+calendarPage(56, 560, 210, 158, "2013", true);
+calendarPage(150, 668, 200, 152, "2026", false);
+plainText("STILL WAITING", 150 + (200 - textWidth("STILL WAITING", 2)) / 2, 668 + 122, 2, [110, 104, 130], 1);
 
 // Soft shadow under the ghost
 fillEllipse(512, 886, 150, 16, [0, 0, 0], 0.3);
